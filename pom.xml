@@ -17,7 +17,7 @@
     <modules>
         <module>melody-grpc-proto</module>
         <module>melody-grpc-dependency</module>
-        <module>melod-ygrpc-server</module>
+        <module>melody-grpc-server</module>
         <module>melod-ygrpc-client</module>
     </modules>
 
