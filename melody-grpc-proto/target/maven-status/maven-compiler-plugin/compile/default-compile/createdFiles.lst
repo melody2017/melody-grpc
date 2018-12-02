@@ -1,0 +1,17 @@
+com\melody\proto\grpc\qryaccount\QryAccountProto$AccountQryRequest$Builder.class
+com\melody\proto\grpc\qryaccount\QryAccountServiceGrpc$QryAccountServiceFutureStub.class
+com\melody\proto\grpc\qryaccount\QryAccountServiceGrpc$QryAccountServiceBlockingStub.class
+com\melody\proto\grpc\qryaccount\QryAccountServiceGrpc$QryAccountServiceStub.class
+com\melody\proto\grpc\qryaccount\QryAccountProto$AccountQryResponse$1.class
+com\melody\proto\grpc\qryaccount\QryAccountProto$AccountQryResponseOrBuilder.class
+com\melody\proto\grpc\qryaccount\QryAccountProto$AccountQryRequest$1.class
+com\melody\proto\grpc\qryaccount\QryAccountServiceGrpc$MethodHandlers.class
+com\melody\proto\grpc\qryaccount\QryAccountProto$AccountQryRequestOrBuilder.class
+com\melody\proto\grpc\qryaccount\QryAccountProto.class
+com\melody\proto\grpc\qryaccount\QryAccountServiceGrpc$1.class
+com\melody\proto\grpc\qryaccount\QryAccountProto$AccountQryRequest.class
+com\melody\proto\grpc\qryaccount\QryAccountProto$1.class
+com\melody\proto\grpc\qryaccount\QryAccountProto$AccountQryResponse$Builder.class
+com\melody\proto\grpc\qryaccount\QryAccountProto$AccountQryResponse.class
+com\melody\proto\grpc\qryaccount\QryAccountServiceGrpc.class
+com\melody\proto\grpc\qryaccount\QryAccountServiceGrpc$QryAccountServiceImplBase.class
