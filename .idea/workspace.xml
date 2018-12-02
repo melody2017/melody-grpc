@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf50e348-6f79-4e50-a2d3-254cf4fbc09f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/melod-ygrpc-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/melody-grpc-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/melody-grpc-proto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/melody-grpc-proto/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/melody-grpc-proto/target/classes/com/melody/proto/grpc/qryaccount/QryAccountServiceGrpc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/melody-grpc-proto/target/classes/com/melody/proto/grpc/qryaccount/QryAccountServiceGrpc$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/melody-grpc-proto/target/classes/com/melody/proto/grpc/qryaccount/QryAccountServiceGrpc$MethodHandlers.class" beforeDir="false" afterPath="$PROJECT_DIR$/melody-grpc-proto/target/classes/com/melody/proto/grpc/qryaccount/QryAccountServiceGrpc$MethodHandlers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/melody-grpc-proto/target/classes/com/melody/proto/grpc/qryaccount/QryAccountServiceGrpc$QryAccountServiceBlockingStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/melody-grpc-proto/target/classes/com/melody/proto/grpc/qryaccount/QryAccountServiceGrpc$QryAccountServiceBlockingStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/melody-grpc-proto/target/classes/com/melody/proto/grpc/qryaccount/QryAccountServiceGrpc$QryAccountServiceFutureStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/melody-grpc-proto/target/classes/com/melody/proto/grpc/qryaccount/QryAccountServiceGrpc$QryAccountServiceFutureStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/melody-grpc-proto/target/classes/com/melody/proto/grpc/qryaccount/QryAccountServiceGrpc$QryAccountServiceImplBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/melody-grpc-proto/target/classes/com/melody/proto/grpc/qryaccount/QryAccountServiceGrpc$QryAccountServiceImplBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/melody-grpc-proto/target/classes/com/melody/proto/grpc/qryaccount/QryAccountServiceGrpc$QryAccountServiceStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/melody-grpc-proto/target/classes/com/melody/proto/grpc/qryaccount/QryAccountServiceGrpc$QryAccountServiceStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/melody-grpc-proto/target/classes/com/melody/proto/grpc/qryaccount/QryAccountServiceGrpc.class" beforeDir="false" afterPath="$PROJECT_DIR$/melody-grpc-proto/target/classes/com/melody/proto/grpc/qryaccount/QryAccountServiceGrpc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/melody-grpc-client/src/main/java/com/melody/ClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/melody-grpc-client/src/main/java/com/melody/client/AccountQueryGrpcClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/melod-ygrpc-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/melody-grpc-client/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,7 +43,7 @@
           <entry key="JAVA" value="16" />
           <entry key="Markdown" value="1" />
           <entry key="PROTO" value="3" />
-          <entry key="XML" value="15" />
+          <entry key="XML" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -62,14 +52,14 @@
           <entry key="Markdown" value="234" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="PROTO" value="19" />
-          <entry key="XML" value="303" />
+          <entry key="XML" value="304" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
@@ -81,8 +71,17 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/melod-ygrpc-client/src/main/java/com/melody/ClientMain.java">
+        <entry file="file://$PROJECT_DIR$/melody-grpc-client/src/main/java/com/melody/ClientMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
               <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
@@ -91,7 +90,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/melod-ygrpc-client/src/main/java/com/melody/client/AccountQueryGrpcClient.java">
+        <entry file="file://$PROJECT_DIR$/melody-grpc-client/src/main/java/com/melody/client/AccountQueryGrpcClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="372">
               <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
@@ -140,7 +139,6 @@
         <option value="$PROJECT_DIR$/melod-ygrpc-server/pom.xml" />
         <option value="$PROJECT_DIR$/melod-ygrpc-client/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/melody-grpc-server/src/main/java/ServerMain.java" />
         <option value="$PROJECT_DIR$/melody-grpc-proto/pom.xml" />
         <option value="$PROJECT_DIR$/melody-grpc-server/src/main/java/com/melody/grpc/ServerMain.java" />
@@ -148,6 +146,7 @@
         <option value="$PROJECT_DIR$/melod-ygrpc-client/src/main/java/com/melody/client/AccountQueryGrpcClient.java" />
         <option value="$PROJECT_DIR$/melod-ygrpc-client/src/main/java/com/melody/ClientMain.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -212,7 +211,7 @@
             <path>
               <item name="melody-grpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="melody-grpc" type="462c0819:PsiDirectoryNode" />
-              <item name="melody-grpc-dependency" type="462c0819:PsiDirectoryNode" />
+              <item name="melody-grpc-client" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -346,12 +345,12 @@
       <workItem from="1543734075400" duration="2451000" />
       <workItem from="1543736574032" duration="5115000" />
       <workItem from="1543746940189" duration="476000" />
-      <workItem from="1543747514549" duration="9037000" />
+      <workItem from="1543747514549" duration="9308000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18396000" />
+    <option name="totallyTimeSpent" value="18667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -415,13 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/melody-grpc-proto/target/generated-sources/protobuf/java/com/melody/proto/grpc/qryaccount/QryAccountProto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12">
@@ -475,7 +467,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/melod-ygrpc-client/pom.xml">
+    <entry file="file://$PROJECT_DIR$/melody-grpc-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
@@ -502,7 +494,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/melod-ygrpc-client/src/main/java/com/melody/client/AccountQueryGrpcClient.java">
+    <entry file="file://$PROJECT_DIR$/melody-grpc-client/src/main/java/com/melody/client/AccountQueryGrpcClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
@@ -519,7 +511,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/melod-ygrpc-client/src/main/java/com/melody/ClientMain.java">
+    <entry file="file://$PROJECT_DIR$/melody-grpc-client/src/main/java/com/melody/ClientMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
@@ -533,6 +525,13 @@
             <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
